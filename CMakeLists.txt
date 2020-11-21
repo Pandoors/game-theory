@@ -1,0 +1,16 @@
+#cmake_minimum_required(VERSION 3.15)
+#project(game-theory C)
+#
+#set(CMAKE_C_STANDARD 99)
+#add_executable(test.c test.c)
+#add_executable(main.c main.c)
+cmake_minimum_required(VERSION 3.16)
+project(game-theory C)
+set(CMAKE_C_STANDARD 99)
+
+file( GLOB APP_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/*.c )
+foreach( sourcefile ${APP_SOURCES} )
+    file(RELATIVE_PATH filename ${CMAKE_CURRENT_SOURCE_DIR} ${sourcefile})
+    string( REPLACE ".c" "" file ${filename} )
+    add_executable( ${file} ${sourcefile} )
+endforeach( sourcefile ${APP_SOURCES} )

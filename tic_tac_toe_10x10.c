@@ -11,6 +11,9 @@
 int DODAJ_X[6] = {0, 0, 1, 5, 20, WYGRANA};
 int DODAJ_O[6] = {0, 0, -1, -5, -20, PRZEGRANA};
 
+int DODAJ_XP[6] = {0, 0, 1, 4, 15, WYGRANA};
+int DODAJ_OP[6] = {0, 0, -1, -4, -15, PRZEGRANA};
+
 void wypisz(char pl[10][10]) {
     printf("\n");
 
@@ -53,8 +56,8 @@ int ocena(char pl[10][10]) {
                     ocena += DODAJ_O[liczwo];
                 liczwo = 0;
             }
-//Teraz pzechodzimy do kolumn
-//ciagx, liczwx, ciagy, liczwy
+    //Teraz pzechodzimy do kolumn
+    //ciagx, liczwx, ciagy, liczwy
             if (pl[j][i] == 'x') {
                 liczkx++;
             } else {
@@ -89,38 +92,47 @@ int ocena(char pl[10][10]) {
         liczkx = 0, liczko = 0;
 
     }
-    //teraz przekatne
-    for (int i = 0; i < 6; ++i) {
-        for (int j = 0; j < 6; ++j) {
+    //ponizej liczę przekatne z góry do dołu w prawo
+    for (int i = 0; i < 6; i++) {
+        for (int j = 0; j < 6; j++) {
             if (pl[i][j] != ' ' && pl[i][j] == pl[i + 1][j + 1]) {
                 if (pl[i][j] == pl[i + 2][j + 2]) {
                     if (pl[i][j] == pl[i + 3][j + 3]) {
                         if (pl[i][j] == pl[i + 4][j + 4]) {
-                            return pl[i][j] == 'x' ? WYGRANA : PRZEGRANA;
+                            if (pl[i][j] == 'x') return WYGRANA;
+                            else return PRZEGRANA;
                         }
-                        ocena += pl[i][j] == 'x' ? DODAJ_X[4] : DODAJ_O[4];
+                        if (pl[i][j] == 'x') ocena += DODAJ_XP[4];
+                        else ocena += DODAJ_OP[4];
                     }
-                    ocena += pl[i][j] == 'x' ? DODAJ_X[3] : DODAJ_O[3];
+                    if (pl[i][j] == 'x') ocena += DODAJ_XP[3];
+                    else ocena += DODAJ_OP[3];
                 }
-                ocena += pl[i][j] == 'x' ? DODAJ_X[2] : DODAJ_O[2];
+                if (pl[i][j] == 'x') ocena += DODAJ_XP[2];
+                else ocena += DODAJ_OP[2];
             }
         }
     }
-    //przekatne
-    for (int i = 9; i > 3; --i) {
-        for (int j = 0; j < 6; ++j) {
+    //przekatne, ale z dolnego wiersza w prawo
+    for (int i = 9; i > 3; i--) {
+        for (int j = 0; j < 6; j++) {
             if (pl[i][j] != ' ' && pl[i][j] == pl[i - 1][j + 1]) {
                 if (pl[i][j] == pl[i - 2][j + 2]) {
                     if (pl[i][j] == pl[i - 3][j + 3]) {
                         if (pl[i][j] == pl[i - 4][j + 4]) {
-                            return pl[i][j] == 'x' ? WYGRANA : PRZEGRANA;
+                            if (pl[i][j] == 'x') return WYGRANA;
+                            else return PRZEGRANA;
                         }
-                        ocena += pl[i][j] == 'x' ? DODAJ_X[4] : DODAJ_O[4];
+                        if (pl[i][j] == 'x') ocena += DODAJ_XP[4];
+                        else ocena += DODAJ_OP[4];
                     }
-                    ocena += pl[i][j] == 'x' ? DODAJ_X[3] : DODAJ_O[3];
+                    if (pl[i][j] == 'x') ocena += DODAJ_XP[3];
+                    else ocena += DODAJ_OP[3];
                 }
-                ocena += pl[i][j] == 'x' ? DODAJ_X[2] : DODAJ_O[2];
+                if (pl[i][j] == 'x') ocena += DODAJ_XP[2];
+                else ocena += DODAJ_OP[2];
             }
+
         }
     }
 
@@ -142,7 +154,6 @@ int minimax(int gl, char pl[10][10], int maximizingPlayer, int *io, int *jo) {
         for (int i = 0; i < 10; ++i) {
             for (int j = 0; j < 10; ++j) {
                 if (pl[i][j] == ' ') {
-
                     pl[i][j] = 'x';
                     eval = minimax(gl - 1, pl, 0, io, jo);
                     pl[i][j] = ' ';
@@ -163,7 +174,6 @@ int minimax(int gl, char pl[10][10], int maximizingPlayer, int *io, int *jo) {
         for (int i = 0; i < 10; ++i) {
             for (int j = 0; j < 10; ++j) {
                 if (pl[i][j] == ' ') {
-
                     pl[i][j] = 'o';
                     eval = minimax(gl - 1, pl, 1, io, jo);
                     pl[i][j] = ' ';
@@ -190,12 +200,12 @@ int main(void) {
         puste_pola--;
         printf("oto ruch komputera: \n");
         wypisz(pl);
-        if (puste_pola == 0) {
-            printf("plansza zapełiona. Koniec gry. Zakończono remisem.");
-            break;
-        }
         if (ocena(pl) == WYGRANA) {
             printf("Komputer wygrał\n");
+            break;
+        }
+        if (puste_pola == 0) {
+            printf("plansza zapełiona. Koniec gry. Zakończono remisem.");
             break;
         }
 

@@ -28,7 +28,7 @@ int ocena(char pl[3][3]) {
     int licz1x = 0, licz1o = 0;
     int licz2x = 0, licz2o = 0;
 
-
+    //Sprawdzam przekatne
     if (pl[0][0] == 'x' && pl[1][1] == 'x' && pl[2][2] == 'x') {
         return WIN;
     }
@@ -47,6 +47,8 @@ int ocena(char pl[3][3]) {
         licz2x = 0;
         licz1o = 0;
         licz2o = 0;
+        //Sprawdzam na zmiane x-y w wierszach i kolumnach,
+        // a także o-a w wierszach i kolumnach
         for (int j = 0; j < 3; ++j) {
 
             if (pl[i][j] == 'x') {
@@ -107,7 +109,6 @@ int minimax(int gl, char pl[3][3], int maximizingPlayer, int *io, int *jo) {
         for (int i = 0; i < 3; ++i) {
             for (int j = 0; j < 3; ++j) {
                 if (pl[i][j] == ' ') {
-
                     pl[i][j] = 'o';
                     eval = minimax(gl - 1, pl, 1, io, jo);
                     pl[i][j] = ' ';

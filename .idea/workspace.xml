@@ -2,23 +2,20 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="game-theory" targetName="tic_tac_toe_10x10" />
       <config projectName="game-theory" targetName="tic_tac_toe_3x3" />
       <config projectName="game-theory" targetName="new_chess" />
-      <config projectName="game-theory" targetName="tic_tac_toe_10x10" />
-      <config projectName="game-theory" targetName="chess" />
-      <config projectName="game-theory" targetName="test" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc90d5fc-476c-4599-94a6-4b18b9102bb9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chess.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_chess.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_chess.c" beforeDir="false" afterPath="$PROJECT_DIR$/new_chess.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,38 +39,38 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RunManager" selected="CMake Application.new_chess">
-    <configuration name="chess" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game-theory" TARGET_NAME="chess" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="game-theory" RUN_TARGET_NAME="chess">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="new_chess" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game-theory" TARGET_NAME="new_chess" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="game-theory" RUN_TARGET_NAME="new_chess">
+    <configuration name="new_chess" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game-theory" TARGET_NAME="new_chess" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="game-theory" RUN_TARGET_NAME="new_chess">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game-theory" TARGET_NAME="test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="game-theory" RUN_TARGET_NAME="test">
+    <configuration name="tic_tac_toe_10x10" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game-theory" TARGET_NAME="tic_tac_toe_10x10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="game-theory" RUN_TARGET_NAME="tic_tac_toe_10x10">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tic_tac_toe_10x10" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game-theory" TARGET_NAME="tic_tac_toe_10x10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="game-theory" RUN_TARGET_NAME="tic_tac_toe_10x10">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tic_tac_toe_3x3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game-theory" TARGET_NAME="tic_tac_toe_3x3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="game-theory" RUN_TARGET_NAME="tic_tac_toe_3x3">
+    <configuration name="tic_tac_toe_3x3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game-theory" TARGET_NAME="tic_tac_toe_3x3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="game-theory" RUN_TARGET_NAME="tic_tac_toe_3x3">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.chess" />
       <item itemvalue="CMake Application.new_chess" />
-      <item itemvalue="CMake Application.test" />
       <item itemvalue="CMake Application.tic_tac_toe_10x10" />
       <item itemvalue="CMake Application.tic_tac_toe_3x3" />
     </list>
@@ -94,7 +91,13 @@
       <workItem from="1606835539690" duration="45276000" />
       <workItem from="1607036092445" duration="424000" />
       <workItem from="1607358040805" duration="1081000" />
-      <workItem from="1607427198777" duration="6358000" />
+      <workItem from="1607427198777" duration="6727000" />
+      <workItem from="1609281216655" duration="5358000" />
+      <workItem from="1609325173242" duration="96000" />
+      <workItem from="1609328094088" duration="12000" />
+      <workItem from="1609801814916" duration="4000" />
+      <workItem from="1609861957831" duration="1285000" />
+      <workItem from="1618077094181" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="2 commit, small changes">
       <created>1606233422607</created>
@@ -103,134 +106,34 @@
       <option name="project" value="LOCAL" />
       <updated>1606233422607</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added chess :)">
+      <created>1607441561351</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607441561351</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2 commit, small changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 commit, small changes" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="184" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606000692069">
-      <screen x="0" y="25" width="1440" height="838" />
-    </state>
-    <state x="184" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.838/-1920.-424.1920.1055@0.25.1440.838" timestamp="1606000692069" />
-    <state x="458" y="195" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606000586805">
-      <screen x="0" y="25" width="1440" height="838" />
-    </state>
-    <state x="458" y="195" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.838/-1920.-424.1920.1055@0.25.1440.838" timestamp="1606000586805" />
-    <state x="467" y="303" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1607358287706">
-      <screen x="0" y="25" width="1440" height="838" />
-    </state>
-    <state x="467" y="303" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.25.1440.838/-1920.-515.1920.1055@0.25.1440.838" timestamp="1607358287706" />
-    <state x="280" y="-974" key="CommitChangelistDialog2" timestamp="1606233422391">
-      <screen x="-273" y="-1055" width="1920" height="1055" />
-    </state>
-    <state x="280" y="-974" key="CommitChangelistDialog2/0.25.1440.838/-273.-1055.1920.1055@-273.-1055.1920.1055" timestamp="1606233422391" />
-    <state x="-1820" y="-294" width="1720" height="855" key="DiffContextDialog" timestamp="1606146613882">
-      <screen x="-1920" y="-394" width="1920" height="1055" />
-    </state>
-    <state x="-1820" y="-294" width="1720" height="855" key="DiffContextDialog/0.25.1440.838/-1920.-394.1920.1055@-1920.-394.1920.1055" timestamp="1606146613882" />
-    <state x="-1110" y="-27" key="Github.ShareDialog" timestamp="1606000896732">
-      <screen x="-1920" y="-424" width="1920" height="1055" />
-    </state>
-    <state x="-1110" y="-27" key="Github.ShareDialog/0.25.1440.838/-1920.-424.1920.1055@-1920.-424.1920.1055" timestamp="1606000896732" />
-    <state x="-1177" y="-226" key="Github.UntrackedFilesDialog" timestamp="1606000903496">
-      <screen x="-1920" y="-424" width="1920" height="1055" />
-    </state>
-    <state x="-1177" y="-226" key="Github.UntrackedFilesDialog/0.25.1440.838/-1920.-424.1920.1055@-1920.-424.1920.1055" timestamp="1606000903496" />
-    <state width="1878" height="476" key="GridCell.Tab.0.bottom" timestamp="1607441367396">
-      <screen x="-258" y="-1055" width="1920" height="1055" />
-    </state>
-    <state width="1878" height="531" key="GridCell.Tab.0.bottom/0.25.1440.838/-1920.-394.1920.1055@-1920.-394.1920.1055" timestamp="1606146613747" />
-    <state width="1878" height="509" key="GridCell.Tab.0.bottom/0.25.1440.838/-1920.-491.1920.1055@-1920.-491.1920.1055" timestamp="1606260801864" />
-    <state width="1878" height="476" key="GridCell.Tab.0.bottom/0.25.1440.838/-258.-1055.1920.1055@-258.-1055.1920.1055" timestamp="1607441367396" />
-    <state width="1878" height="509" key="GridCell.Tab.0.bottom/0.25.1440.838/-273.-1055.1920.1055@-273.-1055.1920.1055" timestamp="1606231076762" />
-    <state width="1398" height="362" key="GridCell.Tab.0.bottom/0.25.1440.838/-275.-1055.1920.1055@-275.-1055.1920.1055" timestamp="1606947159991" />
-    <state width="1878" height="458" key="GridCell.Tab.0.bottom/0.25.1440.838/-279.-1055.1920.1055@-279.-1055.1920.1055" timestamp="1606902457989" />
-    <state width="1398" height="362" key="GridCell.Tab.0.bottom/0.25.1440.838@0.25.1440.838" timestamp="1606945841729" />
-    <state width="1878" height="509" key="GridCell.Tab.0.bottom/0.25.1440.875/-1920.-394.1920.1018@-1920.-394.1920.1018" timestamp="1606229786903" />
-    <state width="1878" height="476" key="GridCell.Tab.0.center" timestamp="1607441367395">
-      <screen x="-258" y="-1055" width="1920" height="1055" />
-    </state>
-    <state width="1878" height="531" key="GridCell.Tab.0.center/0.25.1440.838/-1920.-394.1920.1055@-1920.-394.1920.1055" timestamp="1606146613746" />
-    <state width="1878" height="509" key="GridCell.Tab.0.center/0.25.1440.838/-1920.-491.1920.1055@-1920.-491.1920.1055" timestamp="1606260801863" />
-    <state width="1878" height="476" key="GridCell.Tab.0.center/0.25.1440.838/-258.-1055.1920.1055@-258.-1055.1920.1055" timestamp="1607441367395" />
-    <state width="1878" height="509" key="GridCell.Tab.0.center/0.25.1440.838/-273.-1055.1920.1055@-273.-1055.1920.1055" timestamp="1606231076761" />
-    <state width="1398" height="362" key="GridCell.Tab.0.center/0.25.1440.838/-275.-1055.1920.1055@-275.-1055.1920.1055" timestamp="1606947159990" />
-    <state width="1878" height="458" key="GridCell.Tab.0.center/0.25.1440.838/-279.-1055.1920.1055@-279.-1055.1920.1055" timestamp="1606902457988" />
-    <state width="1398" height="362" key="GridCell.Tab.0.center/0.25.1440.838@0.25.1440.838" timestamp="1606945841728" />
-    <state width="1878" height="509" key="GridCell.Tab.0.center/0.25.1440.875/-1920.-394.1920.1018@-1920.-394.1920.1018" timestamp="1606229786903" />
-    <state width="1878" height="476" key="GridCell.Tab.0.left" timestamp="1607441367395">
-      <screen x="-258" y="-1055" width="1920" height="1055" />
-    </state>
-    <state width="1878" height="531" key="GridCell.Tab.0.left/0.25.1440.838/-1920.-394.1920.1055@-1920.-394.1920.1055" timestamp="1606146613745" />
-    <state width="1878" height="509" key="GridCell.Tab.0.left/0.25.1440.838/-1920.-491.1920.1055@-1920.-491.1920.1055" timestamp="1606260801862" />
-    <state width="1878" height="476" key="GridCell.Tab.0.left/0.25.1440.838/-258.-1055.1920.1055@-258.-1055.1920.1055" timestamp="1607441367395" />
-    <state width="1878" height="509" key="GridCell.Tab.0.left/0.25.1440.838/-273.-1055.1920.1055@-273.-1055.1920.1055" timestamp="1606231076760" />
-    <state width="1398" height="362" key="GridCell.Tab.0.left/0.25.1440.838/-275.-1055.1920.1055@-275.-1055.1920.1055" timestamp="1606947159990" />
-    <state width="1878" height="458" key="GridCell.Tab.0.left/0.25.1440.838/-279.-1055.1920.1055@-279.-1055.1920.1055" timestamp="1606902457987" />
-    <state width="1398" height="362" key="GridCell.Tab.0.left/0.25.1440.838@0.25.1440.838" timestamp="1606945841728" />
-    <state width="1878" height="509" key="GridCell.Tab.0.left/0.25.1440.875/-1920.-394.1920.1018@-1920.-394.1920.1018" timestamp="1606229786902" />
-    <state width="1878" height="476" key="GridCell.Tab.0.right" timestamp="1607441367396">
-      <screen x="-258" y="-1055" width="1920" height="1055" />
-    </state>
-    <state width="1878" height="531" key="GridCell.Tab.0.right/0.25.1440.838/-1920.-394.1920.1055@-1920.-394.1920.1055" timestamp="1606146613746" />
-    <state width="1878" height="509" key="GridCell.Tab.0.right/0.25.1440.838/-1920.-491.1920.1055@-1920.-491.1920.1055" timestamp="1606260801864" />
-    <state width="1878" height="476" key="GridCell.Tab.0.right/0.25.1440.838/-258.-1055.1920.1055@-258.-1055.1920.1055" timestamp="1607441367396" />
-    <state width="1878" height="509" key="GridCell.Tab.0.right/0.25.1440.838/-273.-1055.1920.1055@-273.-1055.1920.1055" timestamp="1606231076761" />
-    <state width="1398" height="362" key="GridCell.Tab.0.right/0.25.1440.838/-275.-1055.1920.1055@-275.-1055.1920.1055" timestamp="1606947159991" />
-    <state width="1878" height="458" key="GridCell.Tab.0.right/0.25.1440.838/-279.-1055.1920.1055@-279.-1055.1920.1055" timestamp="1606902457988" />
-    <state width="1398" height="362" key="GridCell.Tab.0.right/0.25.1440.838@0.25.1440.838" timestamp="1606945841728" />
-    <state width="1878" height="509" key="GridCell.Tab.0.right/0.25.1440.875/-1920.-394.1920.1018@-1920.-394.1920.1018" timestamp="1606229786903" />
-    <state width="1878" height="354" key="GridCell.Tab.1.bottom" timestamp="1606947159974">
-      <screen x="-275" y="-1055" width="1920" height="1055" />
-    </state>
-    <state width="1878" height="354" key="GridCell.Tab.1.bottom/0.25.1440.838/-275.-1055.1920.1055@-275.-1055.1920.1055" timestamp="1606947159974" />
-    <state width="1878" height="354" key="GridCell.Tab.1.bottom/0.25.1440.838/-279.-1055.1920.1055@-279.-1055.1920.1055" timestamp="1606868918983" />
-    <state width="1878" height="354" key="GridCell.Tab.1.center" timestamp="1606947159974">
-      <screen x="-275" y="-1055" width="1920" height="1055" />
-    </state>
-    <state width="1878" height="354" key="GridCell.Tab.1.center/0.25.1440.838/-275.-1055.1920.1055@-275.-1055.1920.1055" timestamp="1606947159974" />
-    <state width="1878" height="354" key="GridCell.Tab.1.center/0.25.1440.838/-279.-1055.1920.1055@-279.-1055.1920.1055" timestamp="1606868918982" />
-    <state width="1878" height="354" key="GridCell.Tab.1.left" timestamp="1606947159973">
-      <screen x="-275" y="-1055" width="1920" height="1055" />
-    </state>
-    <state width="1878" height="354" key="GridCell.Tab.1.left/0.25.1440.838/-275.-1055.1920.1055@-275.-1055.1920.1055" timestamp="1606947159973" />
-    <state width="1878" height="354" key="GridCell.Tab.1.left/0.25.1440.838/-279.-1055.1920.1055@-279.-1055.1920.1055" timestamp="1606868918981" />
-    <state width="1878" height="354" key="GridCell.Tab.1.right" timestamp="1606947159974">
-      <screen x="-275" y="-1055" width="1920" height="1055" />
-    </state>
-    <state width="1878" height="354" key="GridCell.Tab.1.right/0.25.1440.838/-275.-1055.1920.1055@-275.-1055.1920.1055" timestamp="1606947159974" />
-    <state width="1878" height="354" key="GridCell.Tab.1.right/0.25.1440.838/-279.-1055.1920.1055@-279.-1055.1920.1055" timestamp="1606868918983" />
-    <state x="502" y="150" key="RollbackChangesDialog" timestamp="1606941431206">
-      <screen x="0" y="25" width="1440" height="838" />
-    </state>
-    <state x="502" y="150" key="RollbackChangesDialog/0.25.1440.838@0.25.1440.838" timestamp="1606941431206" />
-    <state x="287" y="-809" key="Vcs.Push.Dialog.v2" timestamp="1606233426544">
-      <screen x="-273" y="-1055" width="1920" height="1055" />
-    </state>
-    <state x="287" y="-809" key="Vcs.Push.Dialog.v2/0.25.1440.838/-273.-1055.1920.1055@-273.-1055.1920.1055" timestamp="1606233426544" />
-    <state x="458" y="229" width="670" height="537" key="search.everywhere.popup" timestamp="1606944908183">
-      <screen x="0" y="25" width="1440" height="838" />
-    </state>
-    <state x="-1309" y="-137" width="670" height="676" key="search.everywhere.popup/0.25.1440.838/-1920.-394.1920.1055@-1920.-394.1920.1055" timestamp="1606146539649" />
-    <state x="-1309" y="-167" width="670" height="676" key="search.everywhere.popup/0.25.1440.838/-1920.-424.1920.1055@-1920.-424.1920.1055" timestamp="1606000720194" />
-    <state x="458" y="229" width="670" height="537" key="search.everywhere.popup/0.25.1440.838/-282.-1055.1920.1055@0.25.1440.838" timestamp="1606733112535" />
-    <state x="458" y="229" width="670" height="537" key="search.everywhere.popup/0.25.1440.838@0.25.1440.838" timestamp="1606944908183" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/chess.c</url>
-          <line>314</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Added chess :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added chess :)" />
   </component>
 </project>
